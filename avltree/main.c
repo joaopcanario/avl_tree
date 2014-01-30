@@ -23,7 +23,15 @@ int main(int argc, const char * argv[]) {
     
     inorder(root);
     
+    printf("\n\n------ Height of tree ------\n");
+    
+    int height = find_height(root);
+    
+    printf("\nThe height of tree is: %d", height);
+    
     printf("\n\n");
+    
+    
     
     return 1;
 }
